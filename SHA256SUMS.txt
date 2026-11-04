@@ -45,11 +45,11 @@ b88984e6d90817df5dae4ea11c961da2422576d3d0887dd37840488e82239746  ./00 Осно�
 c21c4bc34e258bb5af619f558890b0111de24320e894d3134801459b98b35dc6  ./00 Основа/source/engine.py
 ac2dab0a8a242556cfa969838a03e045a5e1594bc29f4a2565fc2f9d64cb5393  ./00 Основа/source/finalize_v5.py
 2b44f3820e011faafdefde52485997967d11b51fc66d9966c5429dbcf6441afd  ./00 Основа/source/image-prompts.json
-bafe836b99d2ca93d5af019dbaa2ae031026cfadc75d439ed0e5f5dfc136ad63  ./00 Основа/source/make_checksums.py
+c94e0733607b654008a9f6861ffb924b7ff9b96a0845f1432a4ac6b47d1ab451  ./00 Основа/source/make_checksums.py
 37c9a3b0df2e37595392594fc900ede1a1fdea5e609c35422451b76b450861cc  ./00 Основа/source/palettes.json
 3f0c941eb4fdc6b2fd225d269537cc932010eea880c46869b72008ea58d3ba3b  ./00 Основа/source/render_kit.py
 c065546f68caeb7872dade9e2bdc5b6e092b0d645eb4d207d1486e1c466fe2e7  ./00 Основа/source/requirements.txt
-721059aaaaf502f5d1b58c8900cf86975f151cfa19209002d6f6724f1a7fd885  ./00 Основа/Проверка выпуска.md
+51afefca88218682072bb0afda64959e25131dd9f43dcccbee1d9ab97a475480  ./00 Основа/Проверка выпуска.md
 e38edb47a9a645ab4a965b642b876732e0504a2dead854588f894f7e096dd3fb  ./00 Основа/Промпты иллюстраций.md
 eeaead84d22c8ef78f6f6ae4f96241e7787dbd20fc45cf7564c8a07e42edce1c  ./01 Биология/BIO — визуальный гид.pdf
 90eba9cc63e1115a84c53884d3bac9a9dcd9b2cee2431fb474b2fcd474f83905  ./01 Биология/README.md

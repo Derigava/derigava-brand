@@ -9,7 +9,7 @@ from pathlib import Path
 import hashlib
 
 ROOT = Path(__file__).resolve().parents[2]
-SKIP_DIRS = {'.git', '.remember', '__pycache__'}
+SKIP_DIRS = {'.git', '.remember', '.venv', '__pycache__'}
 PRIVATE = ['00 Основа/references/Примеры постов.txt']
 OUT = ROOT / 'SHA256SUMS.txt'
 PRIVATE_OUT = ROOT / '00 Основа' / 'references' / 'PRIVATE-HASHES.txt'
