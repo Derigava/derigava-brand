@@ -27,6 +27,10 @@ python -m venv .venv
 ```
 
 ```bash
+.venv/Scripts/python "00 Основа/source/make_web.py"
+```
+
+```bash
 .venv/Scripts/python "00 Основа/source/make_release.py"
 ```
 
@@ -37,6 +41,7 @@ python -m venv .venv
 | `engine.py` | Рисование и знак (метод `logo`) |
 | `finalize.py` | Логотипы, подписи, обзор, картинки для README, README направлений |
 | `render_scenes.py` | Сцены из раздела «В работе» |
+| `make_web.py` | Лёгкие WebP для галереи |
 | `make_release.py` | `dist/SHA256SUMS.txt` и `dist/derigava-logos.zip` для релиза |
 
 Проверить клон по файлу из релиза:
