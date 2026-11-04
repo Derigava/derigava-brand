@@ -1,7 +1,11 @@
+.claude/
 .remember/
 .venv/
 __pycache__/
 *.pyc
 
-# Stays on the author's disk; only its hash is published (see NOTICE.md).
+# Release files: checksums and the logo archive go to GitHub Releases.
+dist/
+
+# Kept on disk only; its hash is in 00 Основа/references/PRIVATE-HASHES.txt.
 00 Основа/references/Примеры постов.txt

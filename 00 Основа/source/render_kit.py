@@ -1,7 +1,7 @@
-"""Derigava v5: renders Командный кит from its HTML sources.
+"""Derigava: renders Командный кит from its HTML sources.
 
 Output: previews/{terminal,paper}/NN-*.png and brandbook-{terminal,paper}.pdf.
-Run it before build_v5.py: page 7 of the book reuses the terminal previews.
+Run it before build.py: page 7 of the book reuses the terminal previews.
 Needs an installed Google Chrome (playwright channel="chrome"), no browser download.
 Fails if a brand font does not load, so a preview can't silently fall back to system fonts.
 """

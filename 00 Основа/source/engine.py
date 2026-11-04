@@ -23,7 +23,7 @@ from reportlab.lib.pagesizes import A4, landscape
 W, H = 1280, 905
 COPYRIGHT = '© 2026 Дмитрий Горлов (Dmitriy Gorlov). Все права защищены.'
 FONT_DIR = ROOT / 'assets' / 'fonts'
-TMP = Path(tempfile.gettempdir()) / 'derigava-v5-build'
+TMP = Path(tempfile.gettempdir()) / 'derigava-build'
 TMP.mkdir(parents=True, exist_ok=True)
 
 FONTS = {}
