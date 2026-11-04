@@ -1,0 +1,32 @@
+<!-- @dsCard group="Обучение" height=440 width=1080 subtitle="Так / не так" -->
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>DoDont</title>
+<style>
+html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-sans); }
+.pv { box-sizing: border-box; width: 1080px; padding: 48px 64px; display: flex; flex-direction: column; gap: 32px; }
+.pv-row { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+
+</style>
+</head>
+<body>
+
+<div class="pv">
+  <div class="dt-dodont">
+    <div class="dt-dodont__col dt-dodont__col--do">
+      <span class="dt-label dt-label--acid">[OK] ТАК</span>
+      <p class="dt-dodont__quote">«Что для вас важнее: цена месяца или результат к концу срока?»</p>
+      <p class="dt-dodont__why">Переводим разговор с цены на цель.</p>
+    </div>
+    <div class="dt-dodont__col dt-dodont__col--dont">
+      <span class="dt-label dt-label--alert">[!] НЕ ТАК</span>
+      <p class="dt-dodont__quote">«Да у нас не дорого, у других дороже».</p>
+      <p class="dt-dodont__why">Спорим с клиентом и сами тянем в сравнение цен.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

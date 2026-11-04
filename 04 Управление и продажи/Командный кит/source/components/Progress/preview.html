@@ -1,0 +1,32 @@
+<!-- @dsCard group="Данные" height=380 width=1080 subtitle="Прогресс к плану" -->
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Progress</title>
+<style>
+html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-sans); }
+.pv { box-sizing: border-box; width: 1080px; padding: 48px 64px; display: flex; flex-direction: column; gap: 32px; }
+.pv-row { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+
+</style>
+</head>
+<body>
+
+<div class="pv">
+  <div class="dt-progress">
+    <div class="dt-progress__row"><span class="dt-label dt-label--acid">КОМАНДА</span><span class="dt-num dt-acid" style="font-size: 32px; font-weight: 700">112%</span></div>
+    <div class="dt-progress__track"><div class="dt-progress__fill" style="width: 100%"></div></div>
+  </div>
+  <div class="dt-progress">
+    <div class="dt-progress__row"><span class="dt-label">ОПЛАТЫ · 31 ИЗ 42</span><span class="dt-num" style="font-size: 32px; font-weight: 700">74%</span></div>
+    <div class="dt-progress__track"><div class="dt-progress__fill dt-progress__fill--muted" style="width: 74%"></div></div>
+  </div>
+  <div class="dt-progress">
+    <div class="dt-progress__row"><span class="dt-label">ДНИ НЕДЕЛИ · 3 ИЗ 5</span><span class="dt-num" style="font-size: 32px; font-weight: 700">60%</span></div>
+    <div class="dt-progress__track"><div class="dt-progress__fill dt-progress__fill--muted" style="width: 60%"></div></div>
+  </div>
+</div>
+
+</body>
+</html>

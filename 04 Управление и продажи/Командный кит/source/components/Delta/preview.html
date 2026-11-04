@@ -1,0 +1,26 @@
+<!-- @dsCard group="Данные" height=200 width=1080 subtitle="Динамика ▲ ▼ ●" -->
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Delta</title>
+<style>
+html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-sans); }
+.pv { box-sizing: border-box; width: 1080px; padding: 48px 64px; display: flex; flex-direction: column; gap: 32px; }
+.pv-row { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+
+</style>
+</head>
+<body>
+
+<div class="pv">
+  <div class="pv-row" style="gap: 40px; font-size: 32px">
+    <span class="dt-delta dt-delta--up">12%</span>
+    <span class="dt-delta dt-delta--down">4%</span>
+    <span class="dt-delta dt-delta--risk">3 сделки</span>
+    <span class="dt-delta dt-delta--flat">0</span>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+.remember/
+.venv/
+__pycache__/
+*.pyc
+
+# Stays on the author's disk; only its hash is published (see NOTICE.md).
+00 Основа/references/Примеры постов.txt

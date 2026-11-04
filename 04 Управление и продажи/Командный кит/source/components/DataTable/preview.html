@@ -1,0 +1,35 @@
+<!-- @dsCard group="Данные" height=640 width=1080 subtitle="Таблица: группы, промитоги, итог, н/д" -->
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>DataTable</title>
+<style>
+html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-sans); }
+.pv { box-sizing: border-box; width: 1080px; padding: 48px 64px; display: flex; flex-direction: column; gap: 32px; }
+.pv-row { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+
+</style>
+</head>
+<body>
+
+<div class="pv">
+  <span class="dt-label">// ОПЛАТЫ ПО ТАРИФАМ · ОКТЯБРЬ</span>
+  <table class="dt-table">
+    <thead>
+      <tr><th rowspan="2">Группа</th><th class="dt-table__group dt-table__gstart" colspan="2">Пакет</th><th class="dt-table__group dt-table__gstart" colspan="2">Помесячно</th></tr>
+      <tr><th class="dt-table__gstart">шт</th><th>₽ тыс</th><th class="dt-table__gstart">шт</th><th>₽ тыс</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Продукт А · Плюс</td><td class="dt-table__gstart">16</td><td>960</td><td class="dt-table__gstart">9</td><td>90</td></tr>
+      <tr><td>Продукт А · База</td><td class="dt-table__gstart">12</td><td>432</td><td class="dt-table__gstart">11</td><td>66</td></tr>
+      <tr class="dt-table__sub"><td>Продукт А</td><td class="dt-table__gstart">28</td><td>1 392</td><td class="dt-table__gstart">20</td><td>156</td></tr>
+      <tr><td>Продукт Б · Плюс</td><td class="dt-table__gstart">5</td><td>250</td><td class="dt-table__gstart"><span class="dt-na">н/д</span></td><td><span class="dt-na">н/д</span></td></tr>
+      <tr class="dt-table__total"><td>ИТОГО</td><td class="dt-table__gstart">33</td><td>1 642</td><td class="dt-table__gstart">20</td><td>156</td></tr>
+    </tbody>
+  </table>
+  <span class="dt-small">// Пример данных. н/д — тариф не продаётся помесячно.</span>
+</div>
+
+</body>
+</html>

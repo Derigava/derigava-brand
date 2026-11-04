@@ -1,0 +1,34 @@
+<!-- @dsCard group="Обучение" height=520 width=1080 subtitle="Сравнение вариантов/тарифов" -->
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Compare</title>
+<style>
+html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-sans); }
+.pv { box-sizing: border-box; width: 1080px; padding: 48px 64px; display: flex; flex-direction: column; gap: 32px; }
+.pv-row { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+
+</style>
+</head>
+<body>
+
+<div class="pv">
+  <div class="dt-compare">
+    <div class="dt-compare__col">
+      <span class="dt-label">ПОМЕСЯЧНО</span>
+      <div class="dt-compare__item"><span class="dt-compare__no"></span><span>Гарантия не действует</span></div>
+      <div class="dt-compare__item"><span class="dt-compare__no"></span><span>Доп. модуль — отдельно</span></div>
+      <div class="dt-compare__item"><span class="dt-compare__yes"></span><span>8 бонусов</span></div>
+    </div>
+    <div class="dt-compare__col dt-compare__col--pick">
+      <span class="dt-label dt-label--acid">ПАКЕТ · ВЫГОДНЕЕ</span>
+      <div class="dt-compare__item"><span class="dt-compare__yes"></span><span>Гарантия возврата</span></div>
+      <div class="dt-compare__item"><span class="dt-compare__yes"></span><span>Доп. модуль в подарок</span></div>
+      <div class="dt-compare__item"><span class="dt-compare__yes"></span><span>12 бонусов сразу</span></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

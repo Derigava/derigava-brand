@@ -1,0 +1,28 @@
+<!-- @dsCard group="Данные" height=640 width=1080 subtitle="Рейтинг: место, имя, результат, динамика" -->
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Leaderboard</title>
+<style>
+html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-sans); }
+.pv { box-sizing: border-box; width: 1080px; padding: 48px 64px; display: flex; flex-direction: column; gap: 32px; }
+.pv-row { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+
+</style>
+</head>
+<body>
+
+<div class="pv">
+  <div class="dt-board">
+    <div class="dt-board__head"><span class="dt-label">#</span><span class="dt-label">МЕНЕДЖЕР</span><span class="dt-label">ОПЛАТЫ</span><span class="dt-label">Δ</span></div>
+    <div class="dt-board__row dt-board__row--leader"><span class="dt-board__place">01</span><span class="dt-board__name">Алиса В.</span><span class="dt-board__value">14</span><span class="dt-board__delta dt-delta dt-delta--up">3</span></div>
+    <div class="dt-board__row"><span class="dt-board__place">02</span><span class="dt-board__name">Борис Г.</span><span class="dt-board__value">11</span><span class="dt-board__delta dt-delta dt-delta--up">1</span></div>
+    <div class="dt-board__row"><span class="dt-board__place">03</span><span class="dt-board__name">Вера Д.</span><span class="dt-board__value">9</span><span class="dt-board__delta dt-delta dt-delta--flat">0</span></div>
+    <div class="dt-board__row"><span class="dt-board__place">04</span><span class="dt-board__name">Глеб Е.</span><span class="dt-board__value">8</span><span class="dt-board__delta dt-delta dt-delta--down">2</span></div>
+    <div class="dt-board__row"><span class="dt-board__place">05</span><span class="dt-board__name">Дина Ж.</span><span class="dt-board__value">5</span><span class="dt-board__delta dt-delta dt-delta--up">2</span></div>
+  </div>
+</div>
+
+</body>
+</html>

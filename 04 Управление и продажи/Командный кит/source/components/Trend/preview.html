@@ -1,0 +1,29 @@
+<!-- @dsCard group="Данные" height=520 width=1080 subtitle="Линия по неделям с планом" -->
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Trend</title>
+<style>
+html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-sans); }
+.pv { box-sizing: border-box; width: 1080px; padding: 48px 64px; display: flex; flex-direction: column; gap: 32px; }
+.pv-row { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+
+</style>
+</head>
+<body>
+
+<div class="pv">
+  <span class="dt-label">// % ПЛАНА ПО НЕДЕЛЯМ</span>
+  <svg class="dt-trend" viewBox="0 0 952 340" role="img" aria-label="Выполнение плана по неделям: с 78% до 112%">
+    <line class="grid" x1="0" x2="888" y1="292" y2="292"/><text class="axis" x="900" y="298">60%</text><line class="grid" x1="0" x2="888" y1="210" y2="210"/><text class="axis" x="900" y="216">80%</text><line class="grid" x1="0" x2="888" y1="45" y2="45"/><text class="axis" x="900" y="51">120%</text>
+    <line class="plan" x1="0" x2="888" y1="127" y2="127"/><text class="axis" x="900" y="133">100</text>
+    <polyline class="line" points="0,218 127,193 254,205 381,160 507,139 634,148 761,111 888,78"/>
+    <circle class="dot" cx="888" cy="78" r="8"/>
+    <text class="val" x="876" y="60" text-anchor="end">112%</text>
+    <text class="axis" x="0" y="328" text-anchor="middle">Н35</text><text class="axis" x="127" y="328" text-anchor="middle">Н36</text><text class="axis" x="254" y="328" text-anchor="middle">Н37</text><text class="axis" x="381" y="328" text-anchor="middle">Н38</text><text class="axis" x="507" y="328" text-anchor="middle">Н39</text><text class="axis" x="634" y="328" text-anchor="middle">Н40</text><text class="axis" x="761" y="328" text-anchor="middle">Н41</text><text class="axis" x="888" y="328" text-anchor="middle">Н42</text>
+  </svg>
+</div>
+
+</body>
+</html>

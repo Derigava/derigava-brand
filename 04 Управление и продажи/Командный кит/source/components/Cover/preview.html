@@ -1,0 +1,54 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Derigava Terminal</title>
+<style>@font-face{font-family:"Unbounded";font-weight:200 900;font-display:swap;src:url(../../../../../00%20%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B0/assets/fonts/Unbounded-Variable.ttf) format("truetype")}@font-face{font-family:"Onest";font-weight:100 900;font-display:swap;src:url(../../../../../00%20%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B0/assets/fonts/Onest-Variable.ttf) format("truetype")}@font-face{font-family:"JetBrains Mono";font-weight:400;font-display:swap;src:url(../../../../../00%20%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B0/assets/fonts/JetBrainsMono-Regular.ttf) format("truetype")}@font-face{font-family:"JetBrains Mono";font-weight:500;font-display:swap;src:url(../../../../../00%20%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B0/assets/fonts/JetBrainsMono-Medium.ttf) format("truetype")}@font-face{font-family:"JetBrains Mono";font-weight:700;font-display:swap;src:url(../../../../../00%20%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B0/assets/fonts/JetBrainsMono-Bold.ttf) format("truetype")}</style>
+
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--bg, #0a0b0a); color:var(--ink, #ecf2e8); overflow:hidden; }
+  .cover { position:relative; width:960px; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .acid { fill:var(--acid-fill, #b8ff2c); }
+  .deep { fill:var(--acid-deep, #1e3a00); }
+  .ink { fill:var(--ink, #ecf2e8); }
+  .dot { fill:var(--acid, #b8ff2c); }
+  .sq { rx:var(--radius-0, 0px); }
+  .words { position:absolute; left:var(--space-4, 64px); bottom:var(--space-3, 32px); max-width:440px; }
+  .name { margin:0; font-family:var(--font-display, "Unbounded", sans-serif); font-weight:700; font-size:60px; line-height:.95; letter-spacing:-.02em; color:var(--ink, #ecf2e8); }
+  .tag { margin:var(--space-2, 16px) 0 0; font-family:var(--font-mono, "JetBrains Mono", monospace); font-size:13px; line-height:20px; letter-spacing:.04em; color:var(--ink-muted, #8f998c); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      acid 208×208 bled off top and right (the identity colour, largest) · acid-deep 224×240 bled off the bottom (the relief tint) · ink 32×64 once — the terminal cursor — ≈31% of 960×288
+  arrangement staggered: deep slab low-left, acid slab high-right, cursor dropped under the acid slab; gutters space-3
+  pattern     dot grid, from "precise, technical, mono, an 8px base": 36 acid dots at a space-3 pitch over acid-deep, a screen raster
+  scales      sides in space-2 multiples; gutters and pitch space-3; corners radius-0 (the system is square)
+-->
+<rect class="deep sq" x="32" y="64" width="224" height="240"/>
+<rect class="acid sq" x="288" y="-16" width="208" height="208"/>
+<rect class="ink sq" x="288" y="224" width="32" height="64"/>
+<g>
+<circle class="dot" cx="64" cy="96" r="2"/><circle class="dot" cx="96" cy="96" r="2"/><circle class="dot" cx="128" cy="96" r="2"/><circle class="dot" cx="160" cy="96" r="2"/><circle class="dot" cx="192" cy="96" r="2"/><circle class="dot" cx="224" cy="96" r="2"/>
+<circle class="dot" cx="64" cy="128" r="2"/><circle class="dot" cx="96" cy="128" r="2"/><circle class="dot" cx="128" cy="128" r="2"/><circle class="dot" cx="160" cy="128" r="2"/><circle class="dot" cx="192" cy="128" r="2"/><circle class="dot" cx="224" cy="128" r="2"/>
+<circle class="dot" cx="64" cy="160" r="2"/><circle class="dot" cx="96" cy="160" r="2"/><circle class="dot" cx="128" cy="160" r="2"/><circle class="dot" cx="160" cy="160" r="2"/><circle class="dot" cx="192" cy="160" r="2"/><circle class="dot" cx="224" cy="160" r="2"/>
+<circle class="dot" cx="64" cy="192" r="2"/><circle class="dot" cx="96" cy="192" r="2"/><circle class="dot" cx="128" cy="192" r="2"/><circle class="dot" cx="160" cy="192" r="2"/><circle class="dot" cx="192" cy="192" r="2"/><circle class="dot" cx="224" cy="192" r="2"/>
+<circle class="dot" cx="64" cy="224" r="2"/><circle class="dot" cx="96" cy="224" r="2"/><circle class="dot" cx="128" cy="224" r="2"/><circle class="dot" cx="160" cy="224" r="2"/><circle class="dot" cx="192" cy="224" r="2"/><circle class="dot" cx="224" cy="224" r="2"/>
+<circle class="dot" cx="64" cy="256" r="2"/><circle class="dot" cx="96" cy="256" r="2"/><circle class="dot" cx="128" cy="256" r="2"/><circle class="dot" cx="160" cy="256" r="2"/><circle class="dot" cx="192" cy="256" r="2"/><circle class="dot" cx="224" cy="256" r="2"/>
+</g>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Derigava Terminal</h1>
+<p class="tag">Чёрный фон. Кислотный акцент. Только по делу.</p>
+</div>
+</div>
+</body>
+</html>

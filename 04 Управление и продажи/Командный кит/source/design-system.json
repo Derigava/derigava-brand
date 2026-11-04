@@ -1,0 +1,25 @@
+{
+  "v": 3,
+  "assetGroups": {},
+  "blobs": {},
+  "createdOnFiles": {
+    "at": "2026-10-14T17:58:00Z",
+    "v": 1
+  },
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "groups": [],
+  "lastChange": {
+    "at": "2026-10-23T14:40:00Z",
+    "by": "Derigava",
+    "note": "v2: светлая тема Paper, 16 компонентов, 7 шаблонов форматов, разделы «Голос», «Данные», «Форматы»",
+    "via": "Claude chat"
+  },
+  "layout": "files",
+  "libraries": [],
+  "namespace": "DerigavaTerminal",
+  "sections": {},
+  "title": "Derigava Terminal"
+}
