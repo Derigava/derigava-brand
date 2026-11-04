@@ -43,7 +43,7 @@ bac0995d3c50f777ee1fe19f92cfce3bcded9eea23e6975002168bd8d813b944  ./00 Осно�
 2aa2b9eb28a48be56d0a3952cd725c932a3b3691426c3f8519ac01774599d2fa  ./00 Основа/references/Референс знака.png
 b88984e6d90817df5dae4ea11c961da2422576d3d0887dd37840488e82239746  ./00 Основа/source/build_v5.py
 c21c4bc34e258bb5af619f558890b0111de24320e894d3134801459b98b35dc6  ./00 Основа/source/engine.py
-ac2dab0a8a242556cfa969838a03e045a5e1594bc29f4a2565fc2f9d64cb5393  ./00 Основа/source/finalize_v5.py
+f0305353443244980f0ac859e4f16e765a82be9cd14699876396dffbdcd8996b  ./00 Основа/source/finalize_v5.py
 2b44f3820e011faafdefde52485997967d11b51fc66d9966c5429dbcf6441afd  ./00 Основа/source/image-prompts.json
 c94e0733607b654008a9f6861ffb924b7ff9b96a0845f1432a4ac6b47d1ab451  ./00 Основа/source/make_checksums.py
 37c9a3b0df2e37595392594fc900ede1a1fdea5e609c35422451b76b450861cc  ./00 Основа/source/palettes.json
@@ -52,7 +52,7 @@ c065546f68caeb7872dade9e2bdc5b6e092b0d645eb4d207d1486e1c466fe2e7  ./00 Осно�
 51afefca88218682072bb0afda64959e25131dd9f43dcccbee1d9ab97a475480  ./00 Основа/Проверка выпуска.md
 e38edb47a9a645ab4a965b642b876732e0504a2dead854588f894f7e096dd3fb  ./00 Основа/Промпты иллюстраций.md
 eeaead84d22c8ef78f6f6ae4f96241e7787dbd20fc45cf7564c8a07e42edce1c  ./01 Биология/BIO — визуальный гид.pdf
-90eba9cc63e1115a84c53884d3bac9a9dcd9b2cee2431fb474b2fcd474f83905  ./01 Биология/README.md
+7d47d521dfd8c86bc7bf409f980d46d5292a5f6955557aecf5f1e161282f4d5d  ./01 Биология/README.md
 0f4d58ef67583afc2c55c53adc6f07bf19288e194fb1b13fddd684328df74312  ./01 Биология/graphics/ecosystem-relations.png
 2b759a4c3490f5771c19a4427a1ed724df3210ac01d2d83630de90c02caac392  ./01 Биология/graphics/ecosystem-relations.svg
 fdf1c1571263d2909e5157380c93db30a964288571579e58a457eb3d7fbd01c0  ./01 Биология/graphics/microstructure.png
@@ -307,7 +307,7 @@ f64cf4331b909c1b7c5d0b6ca15e757bb75d642b8717b10a75c1400de19cd54e  ./03 Техн�
 ddd66ba8cce9f960c42d052f6d116b8737d0e2482ab7b82b8906b0c7edbdac0d  ./03 Техника и AI/templates/slide.svg
 4ac05615864dabce9c461b0d0cc77b48c45c2e8ce9c67b6f5003f36fccb17774  ./03 Техника и AI/templates/story.png
 0fef5bdd3d06af9fe5742e4e273228da39491d96ba7127346f7a386bbaeab4c1  ./03 Техника и AI/templates/story.svg
-4f767cccbf842391e969d2d17655b2cbd03986cd3a79e9be66891cd7ac07f86b  ./04 Управление и продажи/README.md
+ba91584429783f91517d9fe565bdd29494631b8e855614b2448fde257ae82d61  ./04 Управление и продажи/README.md
 b37dbc7e4404fb11718363a6f41e5749e6f4f6148f11c73559e596e7c27b98cd  ./04 Управление и продажи/WORK — визуальный гид.pdf
 d6478a9835a9b5205bf60455621773733bcd9211f47c673c0350d9c75a1c9c31  ./04 Управление и продажи/graphics/aligned-blocks.png
 046c3ea571eb8532159ae2e62f0fbdccd8db9b185e91fec7235a3b29826722f2  ./04 Управление и продажи/graphics/aligned-blocks.svg
@@ -586,8 +586,8 @@ d2287ef6930f5f13285caef35a0bfc43a3887bab9700da1268ccbebd88759980  ./05 Личн�
 68feb93a2449fdcaa86d1357f3c18731e85c68eeaff519464e9120c83695baba  ./05 Личное/templates/story.svg
 cbd67bc111ac0ef6b737aca66eb3a463fc1d4df35690183e377ba7ca0a5b4c4f  ./Derigava — визуальная система v5.pdf
 054541c9dd15f100b34ca51059dacb590133c50c3b6a51c243b74c58afb0f545  ./LICENSE.md
-1f2fcb53e94088d2521b9d5047ff280980b74062a8eaa66fbb8e4daf81b61f1c  ./NOTICE.md
-82040b88678b43b833ae74e65a3a4d8965732017f06e24941197818afadd8e42  ./README.md
+1918a142d9c315109ece2f66a091af214e7a2d6217f4eefa6b8e42bddce741bc  ./NOTICE.md
+2d4e3a7811c81bfff96913a13608a246a0c280e7a1b059451b1cb18983cf74e2  ./README.md
 51ebda5740f40b1f63bcd12ad4605d0aec7e468d05b462dfd07f45de12c1e5b9  ./previews/01.png
 8de0d47eca3b26860fae64a28b2fa2100f862b9c25056b8583955cb54bacf9af  ./previews/02.png
 03068d2527d31ebfc009de6b3d9bf4666b7c7fbff2867d5e4cc59ca2b1156e6d  ./previews/03.png
