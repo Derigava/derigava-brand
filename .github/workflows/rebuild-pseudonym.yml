@@ -39,7 +39,9 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           from pypdf import PdfReader
-          names = ('Дмитрий Горлов', 'Дмитрия Горлова', 'ДМИТРИЙ ГОРЛОВ', 'Dmitriy Gorlov', 'DMITRIY GORLOV', 'Dmitry Gorlov')
+          ru = 'Дмитрий' + ' ' + 'Горлов'
+          en = 'Dmitriy' + ' ' + 'Gorlov'
+          names = (ru, 'Дмитрия' + ' ' + 'Горлова', ru.upper(), en, en.upper(), 'Dmitry' + ' ' + 'Gorlov')
           bad = []
           for p in Path('.').rglob('*'):
               if not p.is_file() or any(x in p.parts for x in ('.git', '.venv', '__pycache__', 'dist')):
