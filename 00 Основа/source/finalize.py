@@ -32,7 +32,7 @@ for theme in ['dark','light']:
         save(f'mark-{theme}-{mode}',s)
     s=E.Scene('Аватар Derigava',theme=theme,width=1024,height=1024,furniture=False);s.iconmark(0,0,1024,INK[theme],ACC[theme])
     save(f'avatar-{theme}',s,transparent=False)
-    for lang,name in [('ru','Дмитрий Горлов'),('en','Dmitriy Gorlov')]:
+    for lang,name in [('ru','Derigava'),('en','Derigava')]:
         s=E.Scene(f'Derigava / {name}',theme=theme,width=1280,height=500,furniture=False)
         s.logo(110,100,1060,INK[theme],ACC[theme]);outline(s,114,345,name,48,MUTED[theme])
         save(f'lockup-{lang}-{theme}',s)
