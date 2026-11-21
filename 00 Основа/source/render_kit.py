@@ -15,7 +15,7 @@ from pypdf import PdfReader, PdfWriter
 ROOT = Path(__file__).resolve().parents[2]
 KIT = ROOT / '04 Управление и продажи' / 'Командный кит'
 SRC = KIT / 'source'
-COPYRIGHT = '© 2026 Дмитрий Горлов (Dmitriy Gorlov). Все права защищены.'
+COPYRIGHT = '© 2026 Derigava. Все права защищены.'
 
 ITEMS = [
     ('component', n) for n in ['Label', 'Badge', 'Signature', 'Callout', 'Cta', 'Metric', 'Delta', 'Progress', 'Leaderboard', 'DataTable', 'BarChart', 'Trend', 'Steps', 'Script', 'DoDont', 'Compare']
@@ -97,7 +97,7 @@ def render_book(browser):
         page.pdf(path=str(path), print_background=True, prefer_css_page_size=True)
         page.close()
         writer = PdfWriter(clone_from=str(path))
-        writer.add_metadata({'/Title': f'Derigava Terminal — брендбук ({folder})', '/Author': 'Дмитрий Горлов (Dmitriy Gorlov)', '/Subject': COPYRIGHT})
+        writer.add_metadata({'/Title': f'Derigava Terminal — брендбук ({folder})', '/Author': 'Derigava', '/Subject': COPYRIGHT})
         writer.write(str(path))
         print(f'brandbook-{folder}.pdf: {len(PdfReader(str(path)).pages)} pages')
 
