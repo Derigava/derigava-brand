@@ -60,7 +60,7 @@ h1{font-size:38px;font-weight:600}
 '''
     body = f'''<div class="card"><div class="banner">{strip}</div>
 <div class="head"><img class="avatar" src="{src(BASE / "logos/avatar-dark.png")}" alt="">
-<h1>Дмитрий Горлов</h1><p>Биология, писательство, техника, управление и личное</p><span class="mono">derigava_<b>█</b></span></div>
+<h1>Derigava</h1><p>Биология, писательство, техника, управление и личное</p><span class="mono">derigava_<b>█</b></span></div>
 <div class="grid">{covers}</div></div>'''
     return page(css, body)
 
@@ -125,7 +125,7 @@ main{flex:1;padding:36px 48px}
 '''
     channels = ''.join(f'<p class="mono{" on" if name == "# итоги" else ""}">{name}</p>' for name in ['# итоги', '# объявления', '# обучение', '# инструкции'])
     body = f'''<aside><img src="{src(BASE / "logos/wordmark-dark-color.png")}" alt="">{channels}</aside>
-<main><div class="who"><img src="{src(WORK / "signatures/avatar.png")}" alt=""><b>Дмитрий Горлов</b></div>
+<main><div class="who"><img src="{src(WORK / "signatures/avatar.png")}" alt=""><b>Derigava</b></div>
 <p class="msg">Закрываем неделю.</p>
 <div class="shots"><img src="{src(KIT / "18-format-FormatResults.png")}" alt=""><img class="sq" src="{src(KIT / "17-format-FormatPost.png")}" alt=""></div></main>'''
     return page(css, body)
