@@ -1,4 +1,4 @@
-© 2026 Дмитрий Горлов (Dmitriy Gorlov). Все права защищены. All rights reserved.
+© 2026 Derigava. Все права защищены. All rights reserved.
 
 Знак и материалы можно использовать с моего письменного разрешения, запросы принимаю в [Issues](https://github.com/Derigava/derigava-brand/issues). Using the mark or the materials requires my written permission; ask via Issues.
 
