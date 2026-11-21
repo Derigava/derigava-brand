@@ -21,7 +21,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.pagesizes import A4, landscape
 
 W, H = 1280, 905
-COPYRIGHT = '© 2026 Дмитрий Горлов (Dmitriy Gorlov). Все права защищены.'
+COPYRIGHT = '© 2026 Derigava. Все права защищены.'
 FONT_DIR = ROOT / 'assets' / 'fonts'
 TMP = Path(tempfile.gettempdir()) / 'derigava-build'
 TMP.mkdir(parents=True, exist_ok=True)
